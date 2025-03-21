@@ -1,33 +1,80 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B Chaitra - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>B Chaitra</h1>
+        <p>Passionate Web Developer & Tech Enthusiast</p>
+    </header>
 
-header {
-    background: #333;
-    color: white;
-    padding: 20px;
-}
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-section {
-    margin: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dedicated web developer skilled in Core Java, Manual Testing, SQL, CSS, and HTML. My goal is to contribute my technical skills to a dynamic organization while continuously growing professionally.</p>
+    </section>
 
-a {
-    text-decoration: none;
-    color: blue;
-}
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Core Java</li>
+            <li>Manual Testing</li>
+            <li>SQL</li>
+            <li>CSS</li>
+            <li>HTML</li>
+        </ul>
+        <h2>Non-Technical Skills</h2>
+        <ul>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+        </ul>
+    </section>
 
-footer {
-    margin-top: 20px;
-    padding: 10px;
-    background: #333;
-    color: white;
-}
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Blood Bank Management System</h3>
+            <p>A project aimed at efficiently managing blood donation and supply.</p>
+            <a href="#" target="_blank">View Project</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: <a href="mailto:bchaitrabchaitra7@gmail.com">bchaitrabchaitra7@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/Chaitra2662001" target="_blank">Chaitra2662001</a></p>
+        <p>Portfolio: <a href="https://chaitra2662001.github.io/portfolio-website/" target="_blank">View My Portfolio</a></p>
+    </section>
+
+    <footer>
+        <p>© 2025 B Chaitra. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
